@@ -1,0 +1,55 @@
+* {
+  border: 1px solid red;
+}
+
+header {
+  background: #1f2937;
+  color: white;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 5em;
+  padding-left: 5em;
+}
+
+#logo {
+  flex-grow: 1;
+}
+
+.navbar {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 1em;
+}
+
+#nav1,
+#nav2,
+#nav3 {
+  padding: 1rem;
+  text-decoration: none;
+  color: white;
+}
+
+#nav1:hover,
+#nav2:hover,
+#nav3:hover {
+  color: black;
+  background: hotpink;
+  text-transform: capitalize;
+}
+
+button {
+  background: #3882f6;
+  color: white;
+}
+
+footer {
+  background: #1f2937;
+  color: white;
+}
