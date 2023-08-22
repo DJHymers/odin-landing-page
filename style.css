@@ -5,9 +5,17 @@
 header {
   background: #1f2937;
   color: white;
+  padding: 2em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 nav {
+  background: #1f2937;
+  color: white;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -41,12 +49,39 @@ nav {
 #nav3:hover {
   color: black;
   background: hotpink;
-  text-transform: capitalize;
 }
 
-button {
+#awesome-title {
+  font: 48px extra-bold;
+  margin: 0.1em;
+  align-items: center;
+}
+
+#awesome-text {
+  margin-left: 5em;
+  padding: 1em;
+  color: #f9faf8;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+#image-placeholder {
+  margin-left: 15em;
+  padding: 5em;
+  align-items: center;
+  background: grey;
+  text-align: center;
+}
+
+#header-button {
   background: #3882f6;
   color: white;
+  padding: 1em;
+  margin: 1em;
+  max-width: max-content;
+  border-radius: 25%;
 }
 
 footer {
