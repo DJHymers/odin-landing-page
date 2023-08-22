@@ -53,8 +53,6 @@ nav {
 
 #awesome-title {
   font: 48px extra-bold;
-  margin: 0.1em;
-  align-items: center;
 }
 
 #awesome-text {
@@ -82,6 +80,35 @@ nav {
   margin: 1em;
   max-width: max-content;
   border-radius: 25%;
+}
+
+.random-info {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.random-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  list-style-type: none;
+  justify-content: space-between;
+}
+
+.random-list-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 45%;
+  height: 85%;
 }
 
 footer {
